@@ -3,8 +3,8 @@ title AnonyNet - Limpa os caches dos sockets de internet e renova o IP(Guia)
 
 color 1E
 
-:: github.com/Alien8652 26/12/2018
-:: Num tenho certeza do que isso tudo faz(na hora eu so queria mudar o IP pq tava com conflito com o wifi), pode funcionar ou nao
+:: github.com/GaMaDeCa 26/12/2018
+:: Nao tenho certeza do que isso tudo faz(na hora eu so queria mudar o IP pq tava com conflito com o wifi), pode funcionar ou nao
 
 echo.
 echo.Script de testes beta, pode desconfigurar sua conexÆo com a internet!!!
