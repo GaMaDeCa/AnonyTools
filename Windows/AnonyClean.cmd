@@ -1,5 +1,5 @@
 @echo off
-title Limpador An“nimo
+title Limpador Anâ€œnimo
 
 if "%1" neq "99" (color 0c & echo.Abra o "Anonymous Cleaner.vbs"!!! & pause>nul & exit)
 
@@ -18,8 +18,8 @@ color 0A
 setlocal EnableDelayedExpansion
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do ( set "DEL=%%a" )
 
-echo                   Limpador Anonimo - Alien8652 (github.com/Alien8652)
-echo Apaga arquivos recentes, tempor rios e cache de thumbs do Windows(Testado no Windows 7)
+echo                   Limpador Anonimo - GaMaDeCa (github.com/GaMaDeCa)
+echo Apaga arquivos recentes, temporÂ rios e cache de thumbs do Windows(Testado no Windows 7)
 echo.
 
 echo Matando o processo [explorer.exe]...
@@ -43,9 +43,9 @@ if %ERRORLEVEL%==0 ( Call :MudaCorCMD  0E " - [thumbcache_256.db] foi limpado co
 echo.&echo.
 
 :: Ou %TMP%
-echo Limpando Arquivos Tempor rios...
+echo Limpando Arquivos TemporÂ rios...
 if exist "%TEMP%\*" ( del /s /q "%TEMP%\*" ) else ( echo\Sem arquivos. )
-if %ERRORLEVEL%==0 ( Call :MudaCorCMD  0E " - Arquivos Tempor rios limpados com sucesso!" ) else ( Call :MudaCorCMD  0C " - Erro ao apagar Arquivos Tempor rios!" )
+if %ERRORLEVEL%==0 ( Call :MudaCorCMD  0E " - Arquivos TemporÂ rios limpados com sucesso!" ) else ( Call :MudaCorCMD  0C " - Erro ao apagar Arquivos TemporÂ rios!" )
 echo.&echo.
 
 echo Deletando Arquivos da Pasta de Acessos Recentes...
@@ -57,9 +57,9 @@ echo Reiniciando o processo [explorer.exe]...
 start explorer.exe
 echo.
 echo                               _--===(Finalizado)===--_ 
-Call :MudaCorCMD  0C "AVISO, NÆo limpamos a pasta 'Prefetch' localizado na pasta Windows na raiz do drive, pois pode causar instabilidades no sistema,"
-Call :MudaCorCMD  0C " ela guarda registro das aplica‡äes usadas e algumas informa‡äes de uso importantes para o funcionamento das mesmas,"
-Call :MudaCorCMD  0C " se quiser limpar, entre nela e verifique os registros de programas que vocˆ quer deletar por sua conta e risco."
+Call :MudaCorCMD  0C "AVISO, NÃ†o limpamos a pasta 'Prefetch' localizado na pasta Windows na raiz do drive, pois pode causar instabilidades no sistema,"
+Call :MudaCorCMD  0C " ela guarda registro das aplicaâ€¡Ã¤es usadas e algumas informaâ€¡Ã¤es de uso importantes para o funcionamento das mesmas,"
+Call :MudaCorCMD  0C " se quiser limpar, entre nela e verifique os registros de programas que vocË† quer deletar por sua conta e risco."
 echo.&echo.
 echo/Pressione alguma tecla para sair...&&pause>nul
 goto :Saida
